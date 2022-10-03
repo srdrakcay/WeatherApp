@@ -11,5 +11,5 @@ This is a simple application for weather. I made this app for the learning Dagge
 
 
 ## Screen
-Will be update
+![Main](https://i.hizliresim.com/dn8u9l8.png)
 
