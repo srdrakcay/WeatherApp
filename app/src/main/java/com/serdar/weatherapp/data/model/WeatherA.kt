@@ -4,7 +4,7 @@ data class WeatherA (
     val clouds: Clouds,
     val dt: Int,
     val dt_txt: String,
-    val main: Main,
+    val main: List<Main>,
     val pop: Double,
     val rain: Rain,
     val sys: Sys,
