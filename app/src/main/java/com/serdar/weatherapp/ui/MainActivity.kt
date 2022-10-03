@@ -22,9 +22,10 @@ class MainActivity : AppCompatActivity() {
             binding.apply {
 
             temp.text=weather.main.temp.toString()
-                location.text=weather.name.toString()
-
-
+                location.text=weather.name
+                maxTemp.text=weather.main.temp_max.toString()
+                minTemp.text=weather.main.temp_min.toString()
+                clouds.text=weather.weather.get(0).description
 
             //    temp.text=name.temp.toString()
             }
