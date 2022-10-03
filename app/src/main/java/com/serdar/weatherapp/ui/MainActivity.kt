@@ -21,8 +21,12 @@ class MainActivity : AppCompatActivity() {
         weatherViewModel.weatherResponse.observe(this) { weather ->
             binding.apply {
 
-                val name = weather.main[0]
-                temp.text=name.temp.toString()
+            temp.text=weather.main.temp.toString()
+                location.text=weather.name.toString()
+
+
+
+            //    temp.text=name.temp.toString()
             }
         }
     }
