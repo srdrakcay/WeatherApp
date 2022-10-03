@@ -6,7 +6,7 @@ This is a simple application for weather. I made this app for the learning Dagge
 - Retrofit
 - Dependency Injection
 - Couroutine
-- Live Data
+- Livedata
 - OpenWeather Api
 
 
